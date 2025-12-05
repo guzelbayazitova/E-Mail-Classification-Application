@@ -46,6 +46,13 @@ python app.py
 # Go to: http://localhost:5000
 ```
 
+## What Happens After Setup
+
+When you run the commands above:
+- GitHub provides: `app.py`, templates, configuration files
+- Hugging Face provides: AI model files in `champion_gbert/` folder
+- Together they create a complete working application
+
 ## How It Works:
 
 1. **Application Setup** - Clones this repository and installs dependencies.
