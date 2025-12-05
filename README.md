@@ -53,14 +53,14 @@ When you run the commands above:
 - Hugging Face provides: AI model files in `champion_gbert/` folder
 - Together they create a complete working application
 
-## How It Works:
+## How It Works
 
-1. **Application Setup** - Clones this repository and installs dependencies.
-2. **Model Download** - Downloads the complete `champion_gbert` model folder from Hugging Face.
-3. **Server Start** - Launches Flask web server on port 5000.
-4. **User Input** - You enter German email text in the web interface.
-5. **AI Processing** - Backend loads the model from `champion_gbert/` folder and makes prediction.
-6. **Result Display** - Returns the classified category to the web interface.
+- **Application Setup** - Clones this repository and installs dependencies.
+- **Model Download** - Downloads the complete `champion_gbert` model folder from Hugging Face.
+- **Server Start** - Launches Flask web server on port 5000.
+- **User Input** - You enter German email text in the web interface.
+- **AI Processing** - Backend loads the model from `champion_gbert/` folder and makes prediction.
+- **Result Display** - Returns the classified category to the web interface.
 
 ## Troubleshooting
 Model download fails?
