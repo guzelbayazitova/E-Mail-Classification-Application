@@ -1,8 +1,7 @@
 The project agenda is to build a model that can automatically predict the category of a new email (german text), then create a simple application where a user can input an email, and the system will output the predicted category. The application should have the back-end and front-end: it should accept an email from UI, transfer this request to backend, call the AI and show the category of the email in the UI back.
 
 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-
+git clone https://github.com/your-username/your-repo-name.git 
 cd your-repo-name
 
 3. Install dependencies
