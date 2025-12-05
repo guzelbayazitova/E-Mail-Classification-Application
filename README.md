@@ -26,19 +26,16 @@ python app.py
 
 # 5. Open in browser
 # Go to: http://localhost:5000
+```
 
-How It Works
-Downloads the model to champion_gbert/ folder
+## How It Works:
+- Downloads the model to champion_gbert/ folder
+- Starts Flask web server on port 5000
+- UI accepts German email text
+- Backend processes with AI model
+- Returns predicted category to UI
 
-Starts Flask web server on port 5000
-
-UI accepts German email text
-
-Backend processes with AI model
-
-Returns predicted category to UI
-
-Troubleshooting
+## Troubleshooting
 Model download fails?
 Manually download from: https://huggingface.co/Guzel21/champion-gbert
 Create a champion_gbert/ folder next to app.py and place all files inside.
