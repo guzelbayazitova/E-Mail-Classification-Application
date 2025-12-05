@@ -8,6 +8,22 @@ This project builds a model to automatically categorize German emails, with a fu
 - Web interface for easy input/output
 - Complete pipeline: UI → backend → AI → results
 
+## Folder Structure After Setup
+
+your-project/
+├── champion_gbert/ # ← Downloaded from Hugging Face
+│ ├── config.json 
+│ ├── model.safetensors # AI model weights 
+│ ├── special_tokens_map.json
+│ ├── tokenizer.json
+│ ├── tokenizer_config.json
+│ ├── training_args.bin 
+│ └── vocab.txt 
+├── app.py
+├── templates/ 
+├── category_mappings_gbert.pkl
+└── requirements.txt 
+
 ## Quick Start
 
 ```bash
