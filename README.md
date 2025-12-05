@@ -10,7 +10,7 @@ Web interface for easy input/output
 
 Complete pipeline: UI → backend → AI → results
 
-# Quick Start
+## Quick Start
 
 1. Clone repository
 git clone https://github.com/your-username/your-repo-name.git
@@ -29,6 +29,7 @@ python app.py
 Go to: http://localhost:5000
 
 How It Works
+
 Downloads the model to champion_gbert/ folder
 
 Starts Flask web server on port 5000
