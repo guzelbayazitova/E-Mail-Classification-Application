@@ -29,11 +29,12 @@ python app.py
 ```
 
 ## How It Works:
-- Downloads the model to champion_gbert/ folder
-- Starts Flask web server on port 5000
-- UI accepts German email text
-- Backend processes with AI model
-- Returns predicted category to UI
+1. Downloads the entire `champion_gbert` model repository from Hugging Face
+2. Creates a local `champion_gbert/` folder containing all model files
+3. Starts Flask web server on port 5000
+4. UI accepts German email text
+5. Backend loads model from the `champion_gbert/` folder
+6. Returns predicted category to UI.
 
 ## Troubleshooting
 Model download fails?
