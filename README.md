@@ -10,6 +10,7 @@ This project builds a model to automatically categorize German emails, with a fu
 
 ## Folder Structure After Setup
 
+```
 your-project/
 ├── champion_gbert/ # ← Downloaded from Hugging Face
 │ ├── config.json 
@@ -22,7 +23,8 @@ your-project/
 ├── app.py
 ├── templates/ 
 ├── category_mappings_gbert.pkl
-└── requirements.txt 
+└── requirements.txt
+```
 
 ## Quick Start
 
