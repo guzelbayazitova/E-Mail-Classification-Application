@@ -2,20 +2,21 @@ The project agenda is to build a model that can automatically predict the catego
 
 1. Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
+
 cd your-repo-name
 
-2. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-3. Download the model
+4. Download the model
 python -c "
 from huggingface_hub import snapshot_download
 snapshot_download(repo_id='Guzel21/champion-gbert', local_dir='.')
 "
-4. Run the app
+5. Run the app
 python app.py
 
-5. Open in browser
+6. Open in browser
 Go to: http://localhost:5000
 
 What This Does:
