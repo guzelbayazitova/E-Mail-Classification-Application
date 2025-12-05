@@ -6,7 +6,7 @@ This project builds a model to automatically categorize German emails, with a fu
 - AI model for German email classification
 - Flask backend with REST API  
 - Web interface for easy input/output
-- Complete pipeline: UI → backend → AI → results
+- Complete pipeline: UI → backend → AI → results.
 
 ## Folder Structure After Setup
 
@@ -48,12 +48,12 @@ python app.py
 
 ## How It Works:
 
-1. **Application Setup** - Clones this repository and installs dependencies
-2. **Model Download** - Downloads the complete `champion_gbert` model folder from Hugging Face
-3. **Server Start** - Launches Flask web server on port 5000
-4. **User Input** - You enter German email text in the web interface
-5. **AI Processing** - Backend loads the model from `champion_gbert/` folder and makes prediction
-6. **Result Display** - Returns the classified category to the web interface
+1. **Application Setup** - Clones this repository and installs dependencies.
+2. **Model Download** - Downloads the complete `champion_gbert` model folder from Hugging Face.
+3. **Server Start** - Launches Flask web server on port 5000.
+4. **User Input** - You enter German email text in the web interface.
+5. **AI Processing** - Backend loads the model from `champion_gbert/` folder and makes prediction.
+6. **Result Display** - Returns the classified category to the web interface.
 
 ## Troubleshooting
 Model download fails?
