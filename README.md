@@ -10,23 +10,23 @@ Web interface for easy input/output
 
 Complete pipeline: UI → backend → AI → results
 
-Quick Start
+# Quick Start
 
-# 1. Clone repository
+1. Clone repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-# 2. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Download the model (1.34GB)
+3. Download the model (1.34GB)
 python -c "from huggingface_hub import snapshot_download; snapshot_download(repo_id='Guzel21/champion-gbert', local_dir='.')"
 
-# 4. Run the application
+4. Run the application
 python app.py
 
-# 5. Open in browser
-# Go to: http://localhost:5000
+5. Open in browser
+Go to: http://localhost:5000
 
 How It Works
 Downloads the model to champion_gbert/ folder
