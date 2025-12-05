@@ -58,7 +58,9 @@ python app.py
 ## Troubleshooting
 Model download fails?
 Manually download from: https://huggingface.co/Guzel21/champion-gbert
+
 Create a champion_gbert/ folder next to app.py and place all files inside.
 
 Port 5000 in use?
+
 Change port in app.py or run: python app.py --port 5001
