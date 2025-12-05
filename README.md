@@ -4,7 +4,7 @@ This project builds a model to automatically categorize German emails, with a fu
 
 ## Features
 - AI model for German email classification
-- Flask backend with REST API  
+- Flask web application with JSON API endpoints
 - Web interface for easy input/output
 - Complete pipeline: UI → backend → AI → results.
 
